@@ -18,7 +18,7 @@ class Team extends Model
     // Muchos a muchos
 
     public function games(){
-        return $this->belongsToMany(Game::class);
+       return $this->belongsToMany(Game::class);
     }
 }
 
